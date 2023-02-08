@@ -1,0 +1,8 @@
+.colorBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    margin-top: 65px;
+    min-height:calc(100vh - 65px);
+}

@@ -1,0 +1,46 @@
+.colorItem{
+    /* width:15%; */
+    background: #eee;
+    flex: 1 1 200px;
+    min-height: 150px;
+    padding:10px;
+    position: relative;
+}
+.colorItem p{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.colorItem small{
+    font-size: 14px;
+    color:#999 !important;
+    font-weight: bold;
+}
+.colorItem .copyBox{
+    width:30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0;
+    position: absolute;
+    top:30px;
+    right:30px;
+}
+.colorItem:hover .copyBox{
+    opacity: 1;
+}
+.colorItem .copyText{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    font-weight: bold;
+}

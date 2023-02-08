@@ -1,0 +1,10 @@
+.ripple{
+    box-shadow: 0px 0px 0px 0px #ccc;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    
+}
+.ripple:active{
+    box-shadow: 0px 0px 0px 10px #ccc;
+    transition: all 0.1s linear;
+}
